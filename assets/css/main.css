@@ -2341,7 +2341,11 @@
 				border-radius: 0;
 				display: block;
 				width: 100%;
-			}
+				-webkit-border-radius: 0;
+				-moz-border-radius: 0;
+				-ms-border-radius: 0;
+				-o-border-radius: 0;
+}
 
 			.box .image.featured:first-child {
 				border-radius: 6px 6px 0 0;
@@ -2350,8 +2354,13 @@
 			}
 
 				.box .image.featured:first-child img {
-					border-radius: 6px 6px 0 0;
-				}
+					border-radius: 10px ;
+					/* 这里设置圆角 */
+					-webkit-border-radius: 10px ;
+					-moz-border-radius: 10px ;
+					-ms-border-radius: 10px ;
+					-o-border-radius: 10px ;
+}
 
 			.box .image.featured:last-child {
 				border-radius: 0 0 6px 6px;
@@ -2927,7 +2936,8 @@
 	}
 
 	#header {
-		background:linear-gradient(to left, #09b0e6 , #007aff);;
+		background:linear-gradient(to left,  #00c6fb 0%, #005bea 100%);
+		/* 这里是header的渐变 */
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3161,6 +3171,7 @@
 		background-attachment: scroll,							fixed;
 		background-color: #666;
 		background-image: url("images/overlay.png"), url("https://wx2.sinaimg.cn/large/005ZTV5ely1g4q5kagewbj33s024ib2d.jpg");
+		/* 这里设置了头图 */
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3303,7 +3314,8 @@
 	#cta {
 		/* 改颜色 */
 		/* background: #007aff; */
-		color: #f9dfeb;
+		/* 底部图标颜色 */
+		color: #ffffff;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
