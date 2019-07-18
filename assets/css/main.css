@@ -1,7 +1,6 @@
-/* @import url("fontawesome-all.min.css"); */
 @import url("https://cdn.bootcss.com/font-awesome/5.10.0-11/css/all.min.css");
+@import url("https://fonts.loli.net/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 /* 启用国内cdn,加快国内用户访问速度 */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
 	Alpha by HTML5 UP
@@ -3172,7 +3171,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("https://wx2.sinaimg.cn/large/005ZTV5ely1g4q5kagewbj33s024ib2d.jpg");
+		background-image: url("images/overlay.png"), url("https://s2.ax1x.com/2019/07/18/ZjdcYq.jpg");
 		/* 这里设置了头图 */
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
