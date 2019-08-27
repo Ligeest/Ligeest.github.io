@@ -2208,8 +2208,8 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #666;
-			border-color: #666;
+			background: linear-gradient(to left, #09b0e6 , #007aff);;
+			border-color: linear-gradient(to left, #09b0e6 , #007aff);;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -2411,7 +2411,7 @@
 		}
 
 		.icon.major {
-			background: #666;
+			background: linear-gradient(to left, #09b0e6 , #007aff);;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2752,7 +2752,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #666;
+		background-color: linear-gradient(to left, #09b0e6 , #007aff);;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff;
@@ -2937,7 +2937,7 @@
 	}
 
 	#header {
-		background: #0093e9;
+		background: linear-gradient(to right, #09b0e6 , #007aff);
 		/* 这里是header的渐变 */
 		color: #bbb;
 		cursor: default;
@@ -3001,7 +3001,7 @@
 					}
 
 					#header nav > ul > li a:not(.button) {
-						color: #fff;
+						color: #999;
 						display: inline-block;
 						text-decoration: none;
 						border: 0;
@@ -3170,7 +3170,7 @@
 
 	#banner {
 		background-attachment: scroll,							fixed;
-		background-color: #666;
+		background-color: linear-gradient(to left, #09b0e6 , #007aff);;
 		background-image: url("images/overlay.png"), url("https://s2.ax1x.com/2019/07/18/ZjdcYq.jpg");
 		/* 这里设置了头图 */
 		background-position: top left,						center center;
@@ -3230,8 +3230,9 @@
 			#banner input[type="reset"].primary,
 			#banner input[type="button"].primary,
 			#banner .button.primary {
-				background: #fff;
-				color: #666 !important;
+				background: linear-gradient(to left, #09b0e6 , #007aff);
+				color: linear-gradient(to left, #09b0e6 , #007aff);
+				opacity: 0.9;
 			}
 
 /* Main */
