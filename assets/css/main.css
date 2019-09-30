@@ -3171,8 +3171,8 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: linear-gradient(to left, #09b0e6 , #007aff);;
-		background-image: url("images/overlay.png"), url("https://s2.ax1x.com/2019/07/18/ZjdcYq.jpg");
-		/* 这里设置了头图 */
+		background-image: url("images/overlay.png"), url("https://s2.ax1x.com/2019/09/21/nzq7TS.jpg");
+		/* 这里设置了头图背景图片 */
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
